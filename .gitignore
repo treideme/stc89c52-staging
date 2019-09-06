@@ -1,0 +1,19 @@
+.project
+.cproject
+.settings
+.ideas
+
+# Python venv
+venv
+
+# Temporary files
+*.bin
+*.hex
+*.lk
+*.map
+*.mem
+*.asm
+*.lst
+*.rst
+*.sym
+*.rel
