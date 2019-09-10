@@ -9,7 +9,7 @@ void main()
 {
   while(1)
   {
-    P1_0 = !P1_0;
+    P2_0 = !P2_0;
     delay(30000);
   }
 }
