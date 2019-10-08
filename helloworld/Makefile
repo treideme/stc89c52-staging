@@ -14,7 +14,7 @@ CSRC=$(wildcard *.c)
 OBJ=$(CSRC:.c=.rel)
 INCLUDE=-I. -I../include
 
-CFLAGS=-mmcs51 --model-small --Werror --opt-code-size
+CFLAGS=--Werror -mmcs51 --model-small --Werror --opt-code-size
 
 all: app.bin
 	
